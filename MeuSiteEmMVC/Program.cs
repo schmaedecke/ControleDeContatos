@@ -1,7 +1,15 @@
+using MeuSiteEmMVC.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("MySqlConn");
+
+builder.Services.AddDbContext<AppDBContext>(options => {
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
 
 var app = builder.Build();
 

@@ -28,3 +28,15 @@ C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\
 C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\obj\Debug\net7.0\MeuSiteEmMVC.pdb
 C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\obj\Debug\net7.0\MeuSiteEmMVC.genruntimeconfig.cache
 C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\obj\Debug\net7.0\ref\MeuSiteEmMVC.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Humanizer.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\obj\Debug\net7.0\MeuSiteEmMVC.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Área de Trabalho\DEV\Curso C#\MeuSiteEmMVC\MeuSiteEmMVC\obj\Debug\net7.0\MeuSiteEmMVC.csproj.CopyComplete
