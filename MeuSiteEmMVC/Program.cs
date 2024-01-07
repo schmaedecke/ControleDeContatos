@@ -1,4 +1,5 @@
 using MeuSiteEmMVC.Data;
+using MeuSiteEmMVC.Repositório;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ var connectionString = builder.Configuration.GetConnectionString("MySqlConn");
 builder.Services.AddDbContext<AppDBContext>(options => {
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
+
+builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
 var app = builder.Build();
 
