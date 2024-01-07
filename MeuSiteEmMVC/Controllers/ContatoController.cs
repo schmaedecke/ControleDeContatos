@@ -1,6 +1,8 @@
-﻿using MeuSiteEmMVC.Models;
+﻿using AspNetCore;
+using MeuSiteEmMVC.Models;
 using MeuSiteEmMVC.Repositório;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace MeuSiteEmMVC.Controllers {
     public class ContatoController : Controller {
@@ -12,13 +14,15 @@ namespace MeuSiteEmMVC.Controllers {
         }
 
         public IActionResult Index() {
-            return View();
+            List <ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            return View(contatos);
         }
         public IActionResult Criar() {
             return View();
         }
-        public IActionResult Editar() {
-            return View();
+        public IActionResult Editar(int id) {
+            ContatoModel contato = _contatoRepositorio.ListarPorId(id);
+            return View(contato);
         }
         public IActionResult ApagarConfirmacao() {
             return View();

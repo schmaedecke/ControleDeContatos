@@ -1,7 +1,10 @@
 ﻿using MeuSiteEmMVC.Data;
 using MeuSiteEmMVC.Models;
+using System.Linq;
+using System.Collections.Generic;
+using MeuSiteEmMVC.Repositório;
 
-namespace MeuSiteEmMVC.Repositório {
+namespace MeuSiteEmMVC.Repositorio {
     public class ContatoRepositorio : IContatoRepositorio {
 
         private readonly AppDBContext _bancoContext;
@@ -16,6 +19,10 @@ namespace MeuSiteEmMVC.Repositório {
 
         public List<ContatoModel> BuscarTodos() {
             return _bancoContext.Contatos.ToList();
+        }
+
+        public ContatoModel ListarPorId(int id) {
+            return (ContatoModel)_bancoContext.Contatos.Where(c => c.Id == id);
         }
     }
 }

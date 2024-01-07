@@ -1,5 +1,6 @@
 using MeuSiteEmMVC.Data;
 using MeuSiteEmMVC.Repositório;
+using MeuSiteEmMVC.Repositorio;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller}/{action}/{id}");
 
 app.Run();
